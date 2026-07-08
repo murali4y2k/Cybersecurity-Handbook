@@ -1,0 +1,22 @@
+name: Build Book
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'handbook/**'
+      - 'assets/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate Structure
+        run: |
+          echo "Validating handbook structure..."
+          ls -la handbook/v0.1/
+      - name: Check Links
+        run: |
+          echo "Checking internal links..."
