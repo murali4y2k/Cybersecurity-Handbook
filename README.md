@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/banner.png" alt="Cybersecurity Handbook Banner" width="100%">
+  <img src="assets/diagrams/banner.png" alt="Cybersecurity Handbook Banner" width="100%">
 </p>
 
 <h1 align="center">🛡️ Cybersecurity Handbook</h1>
