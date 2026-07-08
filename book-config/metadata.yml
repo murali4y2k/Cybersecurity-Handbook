@@ -1,0 +1,43 @@
+---
+title: Cybersecurity Handbook
+subtitle: Enterprise Security • Application Security • Cloud Security • DevSecOps • Offensive Security
+version: v0.1.0
+edition: Foundations Edition
+author: Murali Konduru
+publication_date: 2026-07-08
+language: en
+copyright: "© 2026 Murali Konduru. All rights reserved."
+license: Proprietary
+publisher: Cybersecurity Handbook Project
+isbn: (pending)
+
+# Book Configuration
+book:
+  format: markdown
+  source_dir: handbook/v0.1
+  output_dir: releases/v0.1
+
+# Cover Configuration
+cover:
+  image: assets/branding/cover-background.png
+  logo: assets/branding/logo.png
+
+# Fonts Configuration
+fonts:
+  default: fonts/sans-serif.ttf
+  mono: fonts/monospace.ttf
+
+# Style Configuration
+styles:
+  theme: default
+  config: styles/default.css
+
+# Table of Contents
+toc:
+  enabled: true
+  max_depth: 3
+
+# Metadata
+metadata:
+  keywords: [cybersecurity, security, education, enterprise, devsecops]
+  description: "Comprehensive cybersecurity learning handbook covering foundations, enterprise practices, and interview preparation."
